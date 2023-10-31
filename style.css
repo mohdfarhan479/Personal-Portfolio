@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@
 }
 
 .main {
-  background-color: rgb(53, 87, 97);
+  /* background-color: rgb(53, 87, 97); */
   width: 90vw;
 }
 .container {
@@ -32,12 +32,48 @@
 }
 .infoContainer {
   display: flex;
-  background-color: rgb(42, 157, 92);
-  height: 78vh;
-  width: 80vw;
+  /* background-color: rgba(111, 151, 144, 0.623); */
+  height: 58vh;
+  width: 90vw;
   margin: 144px auto;
   justify-content: space-around;
+  font-family: "Crimson Text", serif;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 80px;
+}
+.name {
+  font-size: 52px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.about {
+  font-size: 32px;
+}
+.moreabout {
+  font-size: 25px;
+  padding-bottom: 9px;
+}
+
+.buttons button {
+  margin-top: 34px;
+  border-radius: 54px;
+  padding: 9px 20px;
+  font-size: 22px;
+  color: whitesmoke;
+  background-color: cadetblue;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: cadetblue;
+  background-color: whitesmoke;
 }
 .devPic img {
-  height: 78vh;
+  max-height: 100vh;
 }
