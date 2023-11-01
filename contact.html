@@ -35,20 +35,32 @@
         </nav>
       </div>
       <div class="main">
-        <div class="infoContainer ">
-          <div class="devPic " >
-            <img src="src/img.png" alt="profile pic" srcset="" />
-          </div>
-          <div class="devInfo">
-            <div class="hello">Hi, I am</div>
-            <div class="name">Mohd Farhan</div>
-            <div class="about">Front End Web Delevoper</div>
-            <div class="moreabout">I am a Delevoper, and I love to do surfing internet.</div>
-            <div class="buttons">
-              <a href="/Personal-Portfolio/src/cv.txt" target = "_blank"><button>Download CV </button></a>
-              <a href="/Personal-Portfolio/contact.html"><button>Contact Me</button></a>
+        <div class="contactform">
+          <h1>Contact me for work and General Enquiry</h1>
+          <form>
+            <div class="mb-3">
+              <label for="clientName" class="form-label">Name</label>
+              <input type="name" class="form-control" id="clientEmailId">
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="clientEmailId" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientEmailId" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="clientPhone" class="form-label">Phone Number</label>
+              <input type="phone" class="form-control" id="clientPhone">
+            </div>
+            <div class="mb-3" id="form-check">
+              <input type="checkbox" class="form-check-input" id="isClient">
+              <label class="form-check-label" for="isClient">I want to work with you on a project with me</label>
+            </div>
+            <div class="mb-3">
+              <label for="clientEnquiry" class="form-label">Enquiry</label>
+              <input type="enquiry" class="form-control" id="clientEnquiry" >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>
