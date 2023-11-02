@@ -66,17 +66,22 @@
   padding-bottom: 24px;
 }
 
-.buttons button {
+.btn {
   margin-top: 34px;
   border-radius: 54px;
-  padding: 9px 20px;
+  padding: 5px 15px;
   font-size: 22px;
   color: whitesmoke;
   background-color: cadetblue;
-  margin: 0 3px;
+  margin: 3px 3px;
   cursor: pointer;
 }
-.buttons button:hover {
+.btn-sm {
+  font-size: 10px;
+  padding: 7px 13px;
+  margin: 10px 0;
+}
+.btn:hover {
   color: cadetblue;
   background-color: whitesmoke;
 }
@@ -117,3 +122,57 @@
   width: 24px;
   margin: 3px 0;
 }
+
+.blogItem {
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.blogContainer h1 {
+  font-family: "Poppins", sans-serif;
+  margin: 23px;
+}
+.blogItem p {
+  font-family: "Crimson Text", serif;
+}
+
+.intro h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "Crimson Text", serif;
+  margin: 12px;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900px;
+}
+.skill {
+  /* width: 265px; */
+  height: 6px;
+  /* background-color: red; */
+  border: 2px solid black;
+}
+.hundred {
+  width: 265px;
+  background-color: blueviolet;
+}
+.fifty {
+  width: 125px;
+  background-color: yellowgreen;
+}
+
+.t5 {
+  width: 75px;
+  background-color: aqua;
+}
+@media (max-width: 756px) {
+  * {
+    background-color: red;
+  }
+  .sidebar {
+    transform: translate(-116px, 0);
+    /* position: absolute; */
